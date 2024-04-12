@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Authentication</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #000;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 400px;
+        margin: 200px auto;
+        padding: 30px;
+        background-color: #1a1a1a;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    h2 {
+        text-align: center;
+        color: #ff0000;
+    }
+    input[type="text"], input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: none;
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    h1 {
+        text-align: center;
+        color: #ff0000;
+        margin-top: 30px; /* Remove default margin */
+        font-size: 32px; /* Increase font size */
+        text-transform: uppercase; /* Convert text to uppercase */
+        letter-spacing: 2px; /* Add letter spacing */
+    }
+    h2 {
+        text-align: center;
+        color: #ff0000;
+    }
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #ff0000;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    .container{
+        height: 200px;
+    }
+    input[type="submit"]:hover {
+        background-color: #990000;
+    }
+</style>
+</head>
+<body>
+    <h1>COMMENT TOXICITY ANALYSER</h1>
+<div class="container">
+    <h2>Login</h2>
+    <form action="" id="contactform">
+        <input type="text" name="username1" id="username" placeholder="Username" required>
+        <input type="password" name="password1" id="password" placeholder="Password" required>
+        <input type="submit" value="Login">
+    </form>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+<script src="mail.js"></script>
